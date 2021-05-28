@@ -1,7 +1,7 @@
 pipeline { 
     environment { 
         registry = "psyllon/jenkins-docker-pipeline" 
-        registryCredential = 'psyllon' 
+        registryCredential = 'docker_hub' 
         dockerImage = '' 
     }
     agent any 
