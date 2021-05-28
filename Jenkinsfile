@@ -1,6 +1,6 @@
 pipeline { 
     environment { 
-        registry = "psyllon/jenkins-docker-pipeline:dockerdevtest" 
+        registry = "psyllon/jenkins-docker-pipeline" 
         registryCredential = 'psyllon' 
         dockerImage = '' 
     }
